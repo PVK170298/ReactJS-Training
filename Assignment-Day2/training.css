@@ -1,0 +1,71 @@
+h1{
+  color :brown ;
+  font-size: 50px;
+  text-align: center;
+}
+body{
+  background-color: goldenrod;
+}
+form {
+
+    font: sans-serif;
+    font-display: bold;
+    font-size: 20px;
+    max-width: 600px;
+    max-height: 600px;
+    color: black;
+    margin: 100px auto;
+    padding: 75px;
+    padding-top: 20px;
+    background-color: lightcyan;
+    border-top-left-radius: 45px 40px;
+    border-top-right-radius: 45px 40px;
+    border-bottom-left-radius: 45px 40px;
+    border-bottom-right-radius: 45px 40px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+    
+  }
+  
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 8px 10px;
+    margin: 8px 0;
+    font-size: 20px; 
+    border-radius: 10px;
+
+  }
+  input[type=submit] {
+    align-content: center ;
+    width: 100%;
+    background-color: green;
+    border: black;
+    font-size: 20px;
+    font-display: bold;
+    color: white;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    cursor:pointer;
+    border-radius: 15px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+  }
+
+  input[type=submit]:hover {
+    background-color:greenyellow;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  input[type=submit]:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  
+
+  
