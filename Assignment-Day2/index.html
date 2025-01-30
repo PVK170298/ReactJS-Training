@@ -1,0 +1,38 @@
+<html>
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/training.css" />  
+    </head>
+    <body>
+    <form id="registrationForm" onsubmit="return submitForm()">
+        <h1 >Registration Form</h1>
+        <label for ="name"> Name:</label> <br>
+        <input type="text" id="'name" name="name" pattern="[A-za-z\s]+" title="Text only allowed  in this column " required ><br>
+        <label for ="mobile">Mobile Number :</label><br>
+        <input type="tel" id ="mobile" name="mobile"  pattern="[0-9]{10}" minlength="10" maxlength="10" title="Enter 10 Digit Mobile Number" required ><br>
+        <label for ="email">Email Address :</label><br>
+        <input type="email" id ="email" name="email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" title="Enter valid Mail address "  required><br>
+        <label for ="address">Address :</label><br>
+        <textarea id="address"  name ="address" maxlength="140" rows="5" required ></textarea><br><br>
+        <input type="submit"  value="Submit">
+        
+    </form>
+    
+    <script>
+        
+        function submitForm() {
+            const name = document.getElementById("name").value;
+            const phone = document.getElementById("mobile").value;
+            const email = document.getElementById("email").value;
+            const address = document.getElementById("address").value;
+
+            alert(`Registration Successfull!\n\nName: ${name}\Mobile Number: ${mobile}\nAddress: ${address}\nEmail: ${email}`);
+
+            return false;
+        }
+    </script>
+    </body>
+
+</html>
