@@ -1,0 +1,76 @@
+
+
+.flex-table {
+    display: flex;
+    flex-direction:row ;
+    width: 100%;
+    margin: 0 ;
+    box-sizing: border-box;
+  }
+
+  .flex-column {
+    flex:1;
+    display: flex;
+    flex-direction:column ;
+    width: 100%;
+    box-sizing: border-box;
+    height: 100%;
+  }
+
+  .flex-cell {
+    flex: 1;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  .header {
+    font-weight: bold;
+    background-color:beige;
+   
+  }
+  
+  .odd{
+    background-color: white; 
+    
+  }
+
+  .even{
+    background-color: lightgray;
+    
+  }
+
+  button {
+    align-content: center;
+    width: auto; 
+    background-color: green;
+    border: none; 
+    font-size: 14px; 
+    font-weight: bold; 
+    color: white;
+    padding: 8px 16px; 
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px; 
+    box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 8px 25px 0 rgba(0,0,0,0.19); /* Smaller shadow */
+}
+
+button:hover {
+    background-color: greenyellow;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 8px 25px 0 rgba(0,0,0,0.19); /* Smaller shadow */
+}
+
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 3px #666; 
+    transform: translateY(2px); 
+}
+
+.logo {
+  font-weight: bold;
+
+}
+
