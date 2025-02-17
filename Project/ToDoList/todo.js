@@ -39,13 +39,14 @@ function addTask() {
           checkbox.checked = false;
           updateCounters();
         }
+        });
     deleteBtn.addEventListener("click", function () {
          if (confirm("Are you sure you want to delete this task?")) {
             li.remove();
             updateCounters();
             }
-        });
-    });
+         });
+     updateCounters();
   }
 
 function updateCounters() {
