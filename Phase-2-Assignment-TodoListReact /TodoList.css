@@ -1,0 +1,100 @@
+body{
+  display:flex ;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh ;
+  margin:0;
+  background-color: aquamarine;
+}
+h1{
+  color : darkmagenta ;
+}
+
+.todo-list {
+  color: black;
+  width: 900px;
+  margin: 20px auto;
+  font-family: sans-serif;
+ 
+}
+.add-task {
+  
+  display: flex;
+  margin-bottom: 10px;
+}
+.add-task input {
+  color : black ;
+  background-color: white;
+  flex-grow: 1;
+  padding: 8px;
+  border: 1px solid black;
+}
+.add-task button {
+  padding: 8px 12px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+.task-item {
+  border: 1px solid orange;
+  padding: 10px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.task-display {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+.task-text {
+  margin-left: 5px;
+  flex-grow: 1;
+  color:green ;
+}
+.task-text.completed {
+  text-decoration: line-through;
+  color: red
+}
+.task-actions button {
+  margin-left: 5px;
+  padding: 5px 8px;
+  cursor: pointer;
+}
+.task-actions button:first-child {
+  background-color: blue  ;
+  color: white ;
+  border :none ;
+}
+.task-actions button:last-child {
+  background-color: red ;
+  color: white ;
+  border :none ;
+}
+
+.edit-task {
+  display: flex;
+  flex-grow: 1;
+}
+
+.edit-task input {
+  flex-grow: 1;
+  padding: 5px;
+  border: 1px solid black;
+  color : black ;
+  background-color: white;
+}
+.task-stats {
+  margin-top: 10px;
+  border: solid green ;
+  font-style: italic;
+  color: blue;
+
+}
+ 
